@@ -1,0 +1,143 @@
+{
+	"name": "catppuccin-theme",
+	"displayName": "Catppuccin vscode theme",
+	"description": "Soothing pastel theme",
+	"version": "0.3.1",
+	"publisher": "Siris01",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Siris01/catppuccin-vscode-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/Siris01/catppuccin-vscode-theme/issue"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"icon-theme",
+		"theme",
+		"catppuccin"
+	],
+	"homepage": "https://github.com/Siris01/catppuccin-vscode-theme",
+	"icon": "assets/logo.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Catppuccin Latte",
+				"uiTheme": "vs",
+				"path": "./catppuccin-latte.json"
+			},
+			{
+				"label": "Catppuccin Latte Bordered",
+				"uiTheme": "vs",
+				"path": "./catppuccin-latte-bordered.json"
+			},
+			{
+				"label": "Catppuccin Frappe",
+				"uiTheme": "vs",
+				"path": "./catppuccin-frappe.json"
+			},
+			{
+				"label": "Catppuccin Frappe Bordered",
+				"uiTheme": "vs",
+				"path": "./catppuccin-frappe-bordered.json"
+			},
+			{
+				"label": "Catppuccin Macchiato",
+				"uiTheme": "vs-dark",
+				"path": "./catppuccin-macchiato.json"
+			},
+			{
+				"label": "Catppuccin Macchiato Bordered",
+				"uiTheme": "vs-dark",
+				"path": "./catppuccin-macchiato-bordered.json"
+			},
+			{
+				"label": "Catppuccin Mocha",
+				"uiTheme": "vs-dark",
+				"path": "./catppuccin-mocha.json"
+			},
+			{
+				"label": "Catppuccin Mocha Bordered",
+				"uiTheme": "vs-dark",
+				"path": "./catppuccin-mocha-bordered.json"
+			},
+			{
+				"label": "Catppuccin latte Darker",
+				"uiTheme": "vs",
+				"path": "./catppuccin-latte-darker.json"
+			},
+			{
+				"label": "Catppuccin Frappe Darker",
+				"uiTheme": "vs-dark",
+				"path": "./catppuccin-frappe-darker.json"
+			},
+			{
+				"label": "Catppuccin Macchiato Darker",
+				"uiTheme": "vs-dark",
+				"path": "./catppuccin-macchiato-darker.json"
+			},
+			{
+				"label": "Catppuccin Mocha Darker",
+				"uiTheme": "vs-dark",
+				"path": "./catppuccin-mocha-darker.json"
+			},
+			{
+				"label": "Catppuccin latte Darker Bordered",
+				"uiTheme": "vs",
+				"path": "./catppuccin-latte-darker-bordered.json"
+			},
+			{
+				"label": "Catppuccin Frappe Darker Bordered",
+				"uiTheme": "vs-dark",
+				"path": "./catppuccin-frappe-darker-bordered.json"
+			},
+			{
+				"label": "Catppuccin Macchiato Darker Bordered",
+				"uiTheme": "vs-dark",
+				"path": "./catppuccin-macchiato-darker-bordered.json"
+			},
+			{
+				"label": "Catppuccin Mocha Darker Bordered",
+				"uiTheme": "vs-dark",
+				"path": "./catppuccin-mocha-darker-bordered.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "ayu",
+				"label": "Ayu",
+				"path": "./ayu-icons.json"
+			}
+		]
+	},
+	"scripts": {
+		"build": "ts-node ./src/build.ts",
+		"package": "vsce package",
+		"start": "cd colours && npm run build && cd .. && npm run build && npm run package",
+		"publish": "vsce publish"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.10",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.0.2",
+		"vsce": "^1.96.1"
+	},
+	"__metadata": {
+		"id": "23b56bbf-7be8-4a89-b3ae-85ca25fec971",
+		"publisherId": "fab8b8f6-cfe5-423e-aff6-e66286dfb44f",
+		"publisherDisplayName": "siriscmv",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1713302706016,
+		"pinned": true,
+		"source": "gallery"
+	}
+}

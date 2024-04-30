@@ -1,0 +1,63 @@
+{
+	"name": "red-one-dark-pro",
+	"displayName": "Red One Dark Pro",
+	"description": "Red Dark/Mirage with One Dark Pro",
+	"version": "1.5.0",
+	"icon": "images/icon.png",
+	"publisher": "giladgd",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/giladgd/red-one-dark-pro"
+	},
+	"engines": {
+		"vscode": "^1.36.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Red One Dark Pro | Mirage",
+				"uiTheme": "vs-dark",
+				"path": "./themes/red-one-dark-pro-mirage-color-theme.json"
+			},
+			{
+				"label": "Red One Dark Pro | Mirage Bordered",
+				"uiTheme": "vs-dark",
+				"path": "./themes/red-one-dark-pro-mirage-bordered-color-theme.json"
+			},
+			{
+				"label": "Red One Dark Pro | Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/red-one-dark-pro-dark-color-theme.json"
+			},
+			{
+				"label": "Red One Dark Pro | Dark Bordered",
+				"uiTheme": "vs-dark",
+				"path": "./themes/red-one-dark-pro-dark-bordered-color-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"build": "node ./build.js",
+		"package": "vsce package"
+	},
+	"devDependencies": {
+		"Material-theme": "Binaryify/OneDark-Pro",
+		"ayu": "ayu-theme/vscode-ayu",
+		"vsce": "^1.55.0"
+	},
+	"__metadata": {
+		"id": "ec6a36ba-bb1a-4996-ba78-e38b4f5baeea",
+		"publisherId": "26eefe33-893c-4959-a534-3be2b6cd040a",
+		"publisherDisplayName": "Gilad S.",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1713613446256,
+		"pinned": true,
+		"source": "gallery"
+	}
+}
